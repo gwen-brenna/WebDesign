@@ -22,3 +22,7 @@ img {
   max-width: 50%;
   height: auto;
 }
+
+h1 {
+  border-style: solid;
+}
