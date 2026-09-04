@@ -18,3 +18,8 @@ h3 {
 h1 {
   text-align: center;
 }
+
+img {
+  max-width: 50%;
+  height: auto;
+}
