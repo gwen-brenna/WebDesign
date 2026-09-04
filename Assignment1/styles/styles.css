@@ -21,6 +21,8 @@ h2 {
 img {
   max-width: 350px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
