@@ -26,3 +26,7 @@ img {
 h1 {
   border-style: solid;
 }
+
+body {
+  padding: 20px;
+}
