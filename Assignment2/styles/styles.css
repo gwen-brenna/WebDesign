@@ -39,3 +39,10 @@ h1 {
 footer {
     text-align: center;
 }
+
+li {
+  list-style-type: none;
+  color: rgb(208, 63, 155);
+  display: inline-block;
+  font-family: Georgia, serif;
+}
