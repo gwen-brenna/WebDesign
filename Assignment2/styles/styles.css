@@ -3,6 +3,8 @@ h1 {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+  border-style: solid;
 }
 
 body {
@@ -11,30 +13,19 @@ body {
 
 h2 {
   color: rgb(95, 33, 114);
-}
-
-h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif
   text-align: center;
 }
 
-h2 {
-  text-align: center;
-}
 
 img {
   max-width: 350px;
   height: auto;
   display: block;
   margin: 0 auto;
-}
-
-img {
   border-radius: 8px;
 }
 
-h1 {
-  border-style: solid;
-}
 
 footer {
     text-align: center;
