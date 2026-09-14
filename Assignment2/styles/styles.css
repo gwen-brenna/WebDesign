@@ -61,7 +61,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin-left: -15px;
+    margin: 0;
 }
 
 nav li {
