@@ -53,3 +53,21 @@ main {
 main h1 {
     margin-top: 50px;
 }
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: rgb(121, 26, 91);
+    font-family: Georgia, serif;
+}
