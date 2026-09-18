@@ -80,6 +80,8 @@ nav a {
 
 .flower-section {
     padding: 2%;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .hero img {
