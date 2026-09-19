@@ -108,7 +108,7 @@ nav a {
     padding-bottom: 3%;
 }
 
-.flower-info {
+.flower-card {
     display: inline-block;
     max-width: 25%;
     height: auto;
@@ -119,29 +119,18 @@ nav a {
     font-family: Georgia, serif;
 }
 
-.flower-info {
-    display: inline-block;
-    max-width: 25%;
-    height: auto;
-    background-color: rgb(226, 205, 236);
-    padding: 10px;
-    padding-bottom: 35px;
-    margin: 1%;
-    font-family: Georgia, serif;
-}
-
-.flower-info h1 {
+.flower-card h1 {
     text-align: center;
     font-size: 25px;
 }
 
-.flower-info img {
+.flower-card img {
     display: block;
     max-width: 90%;
     margin: 0 auto;
 }
 
-.flower-info h2 {
+.flower-card h2 {
     font-size: 16px;
     text-align: left;
 }
