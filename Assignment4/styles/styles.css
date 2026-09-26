@@ -162,3 +162,19 @@ nav a {
     max-width: 500px;
     margin: 0 auto;
 }
+
+.flower-survey input,
+.flower-survey button {
+    font-family: "Merriweather", serif;
+}
+
+.flower-survey label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.flower-survey input {
+    display: block;
+    margin: 0 auto;
+}
