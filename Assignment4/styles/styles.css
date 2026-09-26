@@ -36,10 +36,13 @@ body {
 h2 {
   color: rgb(95, 33, 114);
   font-family: "Merriweather", serif;
+  text-align: center;
 }
 
-h2 {
+h3 {
   text-align: center;
+  font-family: "Merriweather", serif;
+  color: rgb(95, 33, 114);
 }
 
 
