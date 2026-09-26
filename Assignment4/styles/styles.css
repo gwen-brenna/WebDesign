@@ -16,6 +16,10 @@ h1 {
   font-variation-settings: "wdth" 100;
 }
 
+.card-test {
+  font-family: "Merriweather", serif;
+}
+
 
 h1 {
   border-style: solid;
