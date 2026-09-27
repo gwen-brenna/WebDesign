@@ -251,17 +251,16 @@ th {
     color: white;
 }
 
-.gallery {
+#gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 800px;
+    gap: 10px;
+    max-width: 600px;
     margin: 0 auto;
-    row-gap: 10px;
-    column-gap: 10px;
 }
 
-.gallery img {
-    width: calc(33.333% - 10px);
+#gallery img {
+    width: 30%;
     height: auto;
 }
