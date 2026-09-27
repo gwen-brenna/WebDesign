@@ -167,19 +167,19 @@ nav a {
     padding: 20px;
 }
 
-.flower-survey input,
-.flower-survey button,
-.flower-survey select {
+.form-v2 input,
+.form-v2 button,
+.form-v2 select {
     font-family: "Merriweather", serif;
 }
 
-.flower-survey label {
+.form-v2 label {
     display: block;
     margin-top: 15px;
     margin-bottom: 5px;
 }
 
-.flower-survey input {
+.form-v2 input {
     display: block;
     margin: 0 auto;
 }
