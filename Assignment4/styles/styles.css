@@ -222,3 +222,8 @@ nav a {
 .form-v2 button:hover {
     background-color: #7a564f;
 }
+
+nav a:hover {
+    background-color: rgb(121, 26, 91);
+    color: white;
+}
