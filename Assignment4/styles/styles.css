@@ -258,6 +258,8 @@ th {
     gap: 10px;
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
+    top: 10px;
 }
 
 #gallery img {
