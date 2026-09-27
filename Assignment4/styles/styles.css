@@ -167,6 +167,17 @@ nav a {
     padding: 20px;
 }
 
+.form-v2 fieldset {
+    border: none;
+    padding: 0;
+}
+
+.form-v2 legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
 .form-v2 input,
 .form-v2 button,
 .form-v2 select {
@@ -177,9 +188,22 @@ nav a {
     display: block;
     margin-top: 15px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .form-v2 input {
     display: block;
     margin: 0 auto;
+}
+
+.form-v2 input[type="text"],
+.form-v2 input[type="email"],
+.form-v2 select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
