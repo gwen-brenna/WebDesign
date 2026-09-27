@@ -161,6 +161,10 @@ nav a {
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
+    background-image: linear-gradient(to bottom, #f9fae9, rgb(226, 205, 236));
+    border: 2px solid rgb(121, 26, 91);
+    border-radius: 12px;
+    padding: 20px;
 }
 
 .flower-survey input,
