@@ -271,7 +271,10 @@ th {
 #gallery img {
     width: 170px;
     height: 170px;
+    max-width: 170px;
     object-fit: cover;
+    display: block;
+    margin: 0;
     border-radius: 12px;
 }
 
