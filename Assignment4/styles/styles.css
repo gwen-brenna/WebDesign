@@ -269,10 +269,9 @@ th {
 }
 
 #gallery img {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
-    margin: 0;
     border-radius: 12px;
 }
 
