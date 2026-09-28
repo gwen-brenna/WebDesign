@@ -266,3 +266,11 @@ th {
     width: 30%;
     height: auto;
 }
+
+nav img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
