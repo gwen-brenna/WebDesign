@@ -7,6 +7,14 @@
   font-variation-settings: "wdth" 100;
 }
 
+.princess-sofia {
+  font-family: "Princess Sofia", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 .card-test {
   font-family: "Merriweather", serif;
 }
