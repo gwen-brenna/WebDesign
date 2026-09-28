@@ -284,3 +284,10 @@ h1 img {
     margin: 0 5px 0 0;
     vertical-align: middle;
 }
+
+.survey-icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 10px;
+}
