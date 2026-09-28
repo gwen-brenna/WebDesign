@@ -294,3 +294,9 @@ nav img {
     object-fit: contain;
     border-radius: 0;
 }
+
+#heart-icon {
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+}
