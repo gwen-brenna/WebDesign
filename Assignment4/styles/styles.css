@@ -284,6 +284,7 @@ nav img {
     display: inline-block;
     margin: 0 5px 0 0;
     vertical-align: middle;
+    object-fit: contain;
     border-radius: 0;
 }
 
