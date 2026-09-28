@@ -269,11 +269,11 @@ th {
 }
 
 #gallery img {
-    width: 30%;
+    width: 180px;
     height: 180px;
     object-fit: cover;
     margin: 0;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 nav img {
