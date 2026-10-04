@@ -313,10 +313,10 @@ nav img {
 }
 
 .site-logo {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     display: block;
-    margin: 15px;
+    margin: 10px 0 0 15px;
     border-radius: 0;
 }
