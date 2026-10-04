@@ -311,3 +311,12 @@ nav img {
     height: 30px;
     max-width: 30px;
 }
+
+.site-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    display: block;
+    margin: 15px;
+    border-radius: 0;
+}
