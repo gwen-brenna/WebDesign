@@ -322,3 +322,14 @@ nav img {
     margin: 0;
     border-radius: 0;
 }
+
+@media (max-width: 600px) {
+    #gallery {
+        max-width: 90%;
+    }
+
+    #gallery img {
+        width: 45%;
+        height: auto;
+    }
+}
