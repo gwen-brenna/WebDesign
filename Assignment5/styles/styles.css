@@ -211,7 +211,7 @@ nav a {
     padding: 8px;
     margin-top: 5px;
     font-size: 1rem;
-    border: 1px solid #aaa;
+    border: 1px solid #f9fae9;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -219,7 +219,7 @@ nav a {
 .form-v2 button {
     margin-top: 20px;
     background-color: rgb(121, 26, 91);
-    color: white;
+    color: #f9fae9;
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
@@ -233,7 +233,7 @@ nav a {
 
 nav a:hover {
     background-color: rgb(121, 26, 91);
-    color: white;
+    color: #f9fae9;
 }
 
 table {
@@ -242,21 +242,21 @@ table {
     width: 78%;
     margin: 0 auto;
     margin-bottom: 30px;
-    background-color: #fdfdfd;
-    border: 1px solid #ccc;
+    background-color: #f9fae9;
+    border: 1px solid #f9fae9;
     border-radius: 4px;
 }
 
 th, td {
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #f9fae9;
     text-align: left;
 }
 
 th {
     background-color: rgb(121, 26, 91);
     font-weight: bold;
-    color: white;
+    color: #f9fae9;
 }
 
 #gallery {
