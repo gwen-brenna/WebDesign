@@ -263,18 +263,22 @@ th {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    max-width: 850px;
-    margin: 0 auto;
+    gap: 24px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #F9FAE9;
+    border-radius: 16px;
 }
 
 #gallery img {
-    width: 240px;
-    height: 240px;
+    width: 250px;
+    height: 250px;
+    max-width: none;
     object-fit: cover;
     display: block;
     margin: 0;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 nav img {
