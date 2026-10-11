@@ -263,15 +263,14 @@ th {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
-    max-width: 600px;
+    gap: 20px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
 #gallery img {
-    width: 180px;
-    height: 180px;
-    max-width: 180px;
+    width: 240px;
+    height: 240px;
     object-fit: cover;
     display: block;
     margin: 0;
