@@ -333,7 +333,7 @@ img {
     height: 250px;
 }
 
-.about-bottom img {
+.about-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
