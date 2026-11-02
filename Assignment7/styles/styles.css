@@ -306,6 +306,15 @@ img {
     width: 100%;
 }
 
+.hero-image {
+    width: 50%;
+    height: 400px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
 
 /* MOBILE RESPONSIVENESS */
 
