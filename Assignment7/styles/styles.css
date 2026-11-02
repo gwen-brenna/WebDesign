@@ -317,6 +317,11 @@ img {
     object-fit: cover;
 }
 
+.bottom-image {
+    width: 60%;
+    height: 350px;
+}
+
 .bottom-image img {
     width: 100%;
     height: 100%;
