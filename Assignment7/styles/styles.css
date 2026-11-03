@@ -414,8 +414,8 @@ img {
     }
 
     .book-container {
-        flex-direction: column;
-    }
+    grid-template-columns: 1fr;
+}
 
     .book-card {
         width: auto;
