@@ -243,17 +243,13 @@ a {
 }
 
 .book-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
-    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .book-card {
-    background-color: #fffdf8;
-    width: 33.33%;
     padding: 20px;
-    text-align: center;
 }
 
 .book-card h3 {
