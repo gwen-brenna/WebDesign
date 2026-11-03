@@ -248,6 +248,10 @@ a {
     gap: 20px;
 }
 
+.book-container {
+    grid-template-columns: 1fr;
+}
+
 .book-card {
     padding: 20px;
 }
