@@ -1,0 +1,423 @@
+/* GENERAL STYLING */
+
+body {
+    margin: 0;
+    background-color: #faf7f0;
+    color: #303b32;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* NAVIGATION */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #fffdf8;
+}
+
+.logo {
+    color: #49634f;
+    font-size: 28px;
+    font-family: Georgia, serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #303b32;
+}
+
+.nav-links a:hover {
+    color: #bd795e;
+}
+
+
+/* BUTTONS */
+
+.button {
+    display: inline-block;
+    background-color: #49634f;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #303b32;
+}
+
+.text-link {
+    color: #49634f;
+    font-weight: bold;
+}
+
+
+/* HOME PAGE */
+
+
+/* Introduction */
+
+.home-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8%;
+    gap: 30px;
+}
+
+.hero-image {
+    background-color: #ead5c4;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+
+/* Mission section */
+
+.home-message {
+    background-color: #f0e9dc;
+    padding: 50px 10%;
+    text-align: center;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+
+/* Bottom section */
+
+.home-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8%;
+    gap: 30px;
+}
+
+.bottom-text {
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom-image {
+    background-color: #e5e8d9;
+    width: 60%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bottom-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* ABOUT PAGE */
+
+
+/* Introduction */
+
+.about-intro {
+    background-color: #f0e9dc;
+    text-align: center;
+    padding: 55px 10%;
+}
+
+.about-intro h1 {
+    font-size: 38px;
+}
+
+
+/* Image left, text right */
+
+.about-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8%;
+    gap: 30px;
+}
+
+.about-image {
+    background-color: #ead5c4;
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Text left, image right */
+
+.about-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8%;
+    gap: 30px;
+}
+
+.resource-text {
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+}
+
+.resource-image {
+    background-color: #e5e8d9;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.resource-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* DISCOVER PAGE */
+
+
+/* Introduction */
+
+.discover-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8%;
+    gap: 30px;
+}
+
+.discover-image {
+    background-color: #ead5c4;
+    width: 35%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.discover-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.discover-text {
+    width: 65%;
+    padding: 20px;
+    text-align: center;
+}
+
+.discover-text h1 {
+    font-size: 38px;
+}
+
+
+/* Book recommendations */
+
+.book-section {
+    background-color: #f0e9dc;
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.book-card {
+    background-color: #fffdf8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(48, 59, 50, 0.10);
+}
+
+.book-card h3 {
+    font-size: 18px;
+}
+
+.author {
+    color: #bd795e;
+    font-weight: bold;
+}
+
+
+/* Book covers */
+
+.book-cover {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cover-one {
+    background-color: #66877b;
+}
+
+.cover-two {
+    background-color: #bd795e;
+}
+
+.cover-three {
+    background-color: #82738c;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #303b32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 750px) {
+
+    /* Navigation */
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+
+    /* Home page */
+
+    .home-hero,
+    .home-bottom {
+        flex-direction: column;
+    }
+
+    .hero-image,
+    .hero-text,
+    .bottom-text,
+    .bottom-image {
+        width: 100%;
+    }
+
+
+    /* About page */
+
+    .about-middle,
+    .about-bottom {
+        flex-direction: column;
+    }
+
+    .about-image,
+    .about-text,
+    .resource-text,
+    .resource-image {
+        width: 100%;
+    }
+
+
+    /* Discover page */
+
+    .discover-hero {
+        flex-direction: column;
+    }
+
+    .discover-image,
+    .discover-text {
+        width: 100%;
+    }
+
+    .book-container {
+        grid-template-columns: 1fr;
+    }
+
+    .book-card {
+        width: auto;
+    }
+
+}
