@@ -1,76 +1,27 @@
-.merriweather {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
+/* ---------------------------------------------------- */
+/* -------------------- CONTENTS ---------------------- */
+/* ---------------------------------------------------- */
 
-.princess-sofia {
-  font-family: "Princess Sofia", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-
-.card-test {
-  font-family: "Merriweather", serif;
-}
-
-.card-test h1 {
-  font-family: "Princess Sofia", cursive;
-}
-
-.card-test h2 {
-  font-family: "Merriweather", serif;
-}
+/* METADATA & PAGE SETUP -- General page styling */
+/* HEADERS -- Site branding and logos */
+/* NAVS -- Navigation menus and links */
+/* HEROS -- Page introductions and featured content */
+/* GALLERIES -- Image collections */
+/* CARDS & PREVIEWS -- Flower cards and card variants */
+/* FORMS -- Survey forms and inputs */
+/* FOOTERS -- Copyright information */
+/* TEXT COMPONENTS -- Fonts and typography */
+/* IMAGE COMPONENTS -- General images and icons */
+/* TABLES -- Data and information tables */
+/* RESPONSIVENESS -- Mobile layouts */
 
 
-h1 {
-    border-style: solid;
-    color: rgb(119, 41, 119);
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
-    font-family: "Princess Sofia", cursive;
-}
+/* ---------------------------------------------------- */
+/* ------------- METADATA & PAGE SETUP ---------------- */
+/* ---------------------------------------------------- */
 
 body {
-  background-color: rgb(226, 205, 236);
-}
-
-h2 {
-  color: rgb(95, 33, 114);
-  font-family: "Merriweather", serif;
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-  font-family: "Merriweather", serif;
-  color: rgb(95, 33, 114);
-}
-
-
-img {
-  max-width: 350px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 8px;
-}
-
-
-footer {
-    text-align: center;
-}
-
-li {
-  list-style-type: none;
-  color: rgb(119, 41, 119);
-  display: inline-block;
-  font-family: "Merriweather", serif;
+    background-color: rgb(226, 205, 236);
 }
 
 main {
@@ -80,6 +31,34 @@ main {
 
 main h1 {
     margin-top: 50px;
+}
+
+
+/* ---------------------------------------------------- */
+/* -------------------- HEADERS ----------------------- */
+/* ---------------------------------------------------- */
+
+.site-logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 0;
+}
+
+
+/* ---------------------------------------------------- */
+/* ---------------------- NAVS ------------------------ */
+/* ---------------------------------------------------- */
+
+li {
+    list-style-type: none;
+    color: rgb(119, 41, 119);
+    display: inline-block;
+    font-family: "Merriweather", serif;
 }
 
 nav {
@@ -101,6 +80,26 @@ nav a {
     color: rgb(121, 26, 91);
     font-family: "Merriweather", serif;
 }
+
+nav a:hover {
+    background-color: rgb(121, 26, 91);
+    color: #f9fae9;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+    border-radius: 0;
+}
+
+
+/* ---------------------------------------------------- */
+/* --------------------- HEROS ------------------------ */
+/* ---------------------------------------------------- */
 
 .hero {
     padding: 2%;
@@ -136,6 +135,51 @@ nav a {
     padding-bottom: 3%;
 }
 
+#snail-icon {
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+
+/* ---------------------------------------------------- */
+/* ------------------- GALLERIES ---------------------- */
+/* ---------------------------------------------------- */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #F9FAE9;
+    border-radius: 16px;
+}
+
+#gallery img {
+    width: 250px;
+    height: 250px;
+    max-width: none;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    border-radius: 10px;
+}
+
+
+/* ---------------------------------------------------- */
+/* ---------------- CARDS & PREVIEWS ------------------ */
+/* ---------------------------------------------------- */
+
+/* Flower Card */
+
 .flower-card {
     display: inline-block;
     max-width: 25%;
@@ -161,6 +205,33 @@ nav a {
 .flower-card h2 {
     font-size: 16px;
     text-align: left;
+}
+
+
+/* Card Variant */
+
+.card-test {
+    font-family: "Merriweather", serif;
+}
+
+.card-test h1 {
+    font-family: "Princess Sofia", cursive;
+}
+
+.card-test h2 {
+    font-family: "Merriweather", serif;
+}
+
+
+/* ---------------------------------------------------- */
+/* ---------------------- FORMS ----------------------- */
+/* ---------------------------------------------------- */
+
+.survey-icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto 10px;
 }
 
 .form-v2 {
@@ -230,10 +301,80 @@ nav a {
     background-color: rgb(119, 41, 119);
 }
 
-nav a:hover {
-    background-color: rgb(121, 26, 91);
-    color: #f9fae9;
+
+/* ---------------------------------------------------- */
+/* --------------------- FOOTERS ---------------------- */
+/* ---------------------------------------------------- */
+
+footer {
+    text-align: center;
 }
+
+
+/* ---------------------------------------------------- */
+/* ---------------- TEXT COMPONENTS ------------------- */
+/* ---------------------------------------------------- */
+
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.princess-sofia {
+    font-family: "Princess Sofia", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1 {
+    border-style: solid;
+    color: rgb(119, 41, 119);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: "Princess Sofia", cursive;
+}
+
+h2 {
+    color: rgb(95, 33, 114);
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: rgb(95, 33, 114);
+}
+
+
+/* ---------------------------------------------------- */
+/* ---------------- IMAGE COMPONENTS ------------------ */
+/* ---------------------------------------------------- */
+
+img {
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#heart-icon {
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+}
+
+
+/* ---------------------------------------------------- */
+/* ---------------------- TABLES ---------------------- */
+/* ---------------------------------------------------- */
 
 table {
     position: relative;
@@ -258,74 +399,13 @@ th {
     color: #f9fae9;
 }
 
-#gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: #F9FAE9;
-    border-radius: 16px;
-}
 
-#gallery img {
-    width: 250px;
-    height: 250px;
-    max-width: none;
-    object-fit: cover;
-    display: block;
-    margin: 0;
-    border-radius: 10px;
-}
-
-nav img {
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 5px 0 0;
-    border-radius: 0;
-}
-
-.survey-icon {
-    width: 30px;
-    height: 30px;
-    display: block;
-    margin: 0 auto 10px;
-}
-
-#snail-icon {
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    display: inline-block;
-    margin: 0 5px 0 0;
-    vertical-align: middle;
-    object-fit: contain;
-    border-radius: 0;
-}
-
-#heart-icon {
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-}
-
-.site-logo {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    margin: 0;
-    border-radius: 0;
-}
+/* ---------------------------------------------------- */
+/* ------------------ RESPONSIVENESS ------------------ */
+/* ---------------------------------------------------- */
 
 @media (max-width: 600px) {
+
     #gallery {
         max-width: 90%;
     }
@@ -334,4 +414,5 @@ nav img {
         width: 45%;
         height: auto;
     }
+
 }
