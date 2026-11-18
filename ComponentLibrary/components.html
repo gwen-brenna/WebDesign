@@ -1,46 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- ------------------- CONTENTS ------------------------ -->
+
+<!-- METADATA & PAGE SETUP -- Document structure and stylesheet -->
+<!-- HEADERS -- Site branding and logos -->
+<!-- NAVS -- Navigation menus and links -->
+<!-- HEROS -- Page introductions and featured content -->
+<!-- GALLERIES -- Image collections -->
+<!-- CARDS & PREVIEWS -- Flower information cards -->
+<!-- FORMS -- Survey forms and inputs -->
+<!-- FOOTERS -- Copyright information -->
+
+
+<!-- ------------------------------------------------ -->
+<!-- ------------ METADATA & PAGE SETUP ------------- -->
+<!-- ------------------------------------------------ -->
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 
-<!-- ------------------- NAV ------------------------ --> 
+
+<!-- ------------------------------------------------ -->
+<!-- ------------------- HEADERS -------------------- -->
+<!-- ------------------------------------------------ -->
+
+<!-- Flower Logo -->
+
+<img class="site-logo" src="images/flower-logo.png" alt="flower logo">
+
+
+<!-- ------------------------------------------------ -->
+<!-- --------------------- NAVS --------------------- -->
+<!-- ------------------------------------------------ -->
+
 <nav>
-        <ul>
-            <li>
-                <a href="index.html">
-                    <img src="images/butterfly icon.png" alt="butterfly"> home
-                </a>
-            </li>
+    <ul>
+        <li>
+            <a href="index.html">
+                <img src="images/butterfly icon.png" alt="butterfly"> home
+            </a>
+        </li>
 
-            <li>
-                <a href="second-page.html">
-                    <img src="images/star icon.png" alt="star"> about
-                </a>
-            </li>
+        <li>
+            <a href="second-page.html">
+                <img src="images/star icon.png" alt="star"> about
+            </a>
+        </li>
 
-            <li>
-                <a href="third-page.html">
-                    <img src="images/flower icon.png" alt="flower"> info
-                </a>
-            </li>
-            
-            <li>
-                <a href="gallery.html">
-                    <img src="images/snail icon.png" alt="gallery"> gallery
-                </a>
-            </li>
+        <li>
+            <a href="third-page.html">
+                <img src="images/flower icon.png" alt="flower"> info
+            </a>
+        </li>
+
+        <li>
+            <a href="gallery.html">
+                <img src="images/snail icon.png" alt="gallery"> gallery
+            </a>
+        </li>
+    </ul>
+</nav>
 
 
-        </ul>
-    </nav>
+<!-- ------------------------------------------------ -->
+<!-- -------------------- HEROS --------------------- -->
+<!-- ------------------------------------------------ -->
 
-<!-- ------------------- HERO ------------------------ --> 
-    <div class="hero">
+<div class="hero">
 
     <h1>
         a little more about me
@@ -63,24 +96,10 @@
 </div>
 
 
-<!-- ------------------- FLOWER CARDS ------------------------ -->
-<div class="flower-card">
+<!-- ------------------------------------------------ -->
+<!-- ------------------- GALLERIES ------------------ -->
+<!-- ------------------------------------------------ -->
 
-    <h1> lotus: </h1>
-    <img src="images/lotus 2.jpg" alt="lotus">
-
-    <h2> the lotus is known for its ability to grow through muddy waters,
-        <em> emerging into something more beautiful. </em>
-    </h2>
-
-    <h2> they symbolize spiritual growth, transformation, & purity. </h2>
-
-</div>
-
-<!-- ------------------- LOGO ------------------------ -->
-<img class="site-logo" src="images/flower-logo.png" alt="flower logo">
-
-<!-- ------------------- GALLERY ------------------------ -->
 <div id="gallery">
     <img src="images/lotus_gallery.jpg" alt="lotus">
     <img src="images/iris_gallery.jpg" alt="iris">
@@ -90,7 +109,36 @@
     <img src="images/cornflower_gallery.jpg" alt="cornflower">
 </div>
 
-<!-- ------------------- FLOWER SURVEY FORM ------------------------ -->
+
+<!-- ------------------------------------------------ -->
+<!-- --------------- CARDS & PREVIEWS --------------- -->
+<!-- ------------------------------------------------ -->
+
+<!-- Flower Card -->
+
+<div class="flower-card">
+
+    <h1> lotus: </h1>
+
+    <img src="images/lotus 2.jpg" alt="lotus">
+
+    <h2>
+        the lotus is known for its ability to grow through muddy waters,
+        <em> emerging into something more beautiful. </em>
+    </h2>
+
+    <h2>
+        they symbolize spiritual growth, transformation, & purity.
+    </h2>
+
+</div>
+
+
+<!-- ------------------------------------------------ -->
+<!-- -------------------- FORMS --------------------- -->
+<!-- ------------------------------------------------ -->
+
+<!-- Flower Survey Form -->
 
 <img class="survey-icon" src="images/heart chat icon.png" alt="heart chat icon">
 
@@ -98,17 +146,17 @@
     <fieldset>
         <legend>flower survey:</legend>
 
-        <label>what's your favorite flower?</label>
-        <input type="text" name="favorite-flower" placeholder="type your favorite here">
+        <label for="favorite-flower">what's your favorite flower?</label>
+        <input type="text" id="favorite-flower" name="favorite-flower" placeholder="type your favorite here">
 
-        <label>your name:</label>
-        <input type="text" name="name" placeholder="e.g. Joy Smith">
+        <label for="name">your name:</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Joy Smith">
 
-        <label>email address:</label>
-        <input type="email" name="email" placeholder="e.g. joysmith@gmail.com">
+        <label for="email">email address:</label>
+        <input type="email" id="email" name="email" placeholder="e.g. joysmith@gmail.com">
 
-        <label>favorite of the flowers listed so far:</label>
-        <select name="flowers">
+        <label for="flowers">favorite of the flowers listed so far:</label>
+        <select id="flowers" name="flowers">
             <option value="lotus">Lotus</option>
             <option value="iris">Iris</option>
             <option value="tulip">Tulip</option>
@@ -117,7 +165,8 @@
             <option value="cornflower">Cornflower</option>
         </select>
 
-        <label>which flower should i do next?</label>
+        <p>which flower should i do next?</p>
+
         <label><input type="radio" name="format" value="rose"> Rose</label>
         <label><input type="radio" name="format" value="daffodil"> Daffodil</label>
         <label><input type="radio" name="format" value="snowdrop"> Snowdrop</label>
@@ -126,11 +175,14 @@
     </fieldset>
 </form>
 
-<!-- ------------------- FOOTER ------------------------ -->
+
+<!-- ------------------------------------------------ -->
+<!-- ------------------- FOOTERS -------------------- -->
+<!-- ------------------------------------------------ -->
+
 <footer>
     <p>&copy; 2026 Gwen's Page. All rights reserved.</p>
 </footer>
-
 
 </body>
 </html>
