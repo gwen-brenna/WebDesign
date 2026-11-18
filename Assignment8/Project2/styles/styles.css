@@ -20,6 +20,11 @@ a {
     color: inherit;
 }
 
+a:focus, button:focus, input:focus {
+    outline: 2px solid #4a90e2;
+    outline-offset: 2px;
+}
+
 img {
     max-width: 100%;
 }
@@ -48,10 +53,12 @@ img {
 
 .nav-links a {
     color: #303b32;
+    transition: color 0.3s;
 }
 
 .nav-links a:hover {
     color: #bd795e;
+    text-decoration: underline;
 }
 
 
@@ -64,15 +71,22 @@ img {
     padding: 12px 24px;
     margin-top: 10px;
     border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .button:hover {
     background-color: #303b32;
+    transform: translateY(-3px);
 }
 
 .text-link {
     color: #49634f;
     font-weight: bold;
+}
+
+.text-link:hover {
+    color: #bd795e;
+    text-decoration: underline;
 }
 
 
@@ -306,6 +320,12 @@ img {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(48, 59, 50, 0.10);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(48, 59, 50, 0.15);
 }
 
 .book-card h3 {
@@ -353,6 +373,40 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+
+/* TABLET RESPONSIVENESS */
+
+@media (min-width: 751px) and (max-width: 1024px) {
+
+    .home-hero,
+    .home-bottom,
+    .about-middle,
+    .about-bottom,
+    .discover-hero {
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .hero-text h1,
+    .about-intro h1,
+    .discover-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-image,
+    .bottom-image,
+    .about-image,
+    .resource-image,
+    .discover-image {
+        height: 300px;
+    }
+
+    .book-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 
