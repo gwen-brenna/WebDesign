@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PageTurn helps young adults discover books based on their interests and makes reading feel simple, personal, and enjoyable.">
 
     <title>PageTurn | Home</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
 <body>
@@ -96,6 +99,12 @@
     <!-- Footer -->
     <footer>
         <p>PageTurn ꩜ | Discover a story worth turning the page for.</p>
+
+        <p>&copy; <span id="year"></span> PageTurn</p>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
     </footer>
 
 </body>
